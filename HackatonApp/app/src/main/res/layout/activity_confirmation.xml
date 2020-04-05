@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grocerry shopping"
+        android:textSize="50sp"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/tv_subtitle"/>
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi! I’m in a risk group and would like some help with my groceries. I need 2 litre milk, 6 eggs, 1 litre oats, 1pkt meatballs, 1pkt spagetti"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@id/et_email"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ljungvägen 54, 658 66 Stockholm"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_above="@id/et_password"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="#68ADEC"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:text="Call"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:background="#FFB067"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@android:color/white"
+        android:text="Chat"/>
+
+    <TextView
+        android:id="@+id/swipeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swipe_left_for_register"
+        android:textSize="15sp"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_login"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

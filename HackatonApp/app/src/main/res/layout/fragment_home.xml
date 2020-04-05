@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"/>
+
+    <!--<LinearLayout
+        android:visibility="gone"
+        android:id="@+id/buttoncat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_weight="0.5"
+        android:background="#006400"
+        android:text="Distance"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#90EE90"
+        android:layout_marginLeft="2dp"
+        android:text="Cost"
+        />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#90EE90"
+            android:layout_marginLeft="2dp"
+            android:text="Availability"
+            />
+    </LinearLayout>-->
+
+</RelativeLayout>

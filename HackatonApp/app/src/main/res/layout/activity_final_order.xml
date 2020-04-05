@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Describe what you need help with. If you need multiple items, write a list "
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:fontFamily="@font/indigo_daisy"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/tv_subtitle"/>
+
+    <EditText
+        android:id="@+id/keyPair"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_title"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/et_custom"
+        android:hint="Descrive all the items"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp" />
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keyPair">
+    </TimePicker>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:background="#FFB067"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@android:color/white"
+        android:text="Submit"/>
+
+</RelativeLayout>
